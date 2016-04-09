@@ -18,13 +18,14 @@ public class IndexedEdge extends MultipleLinksEdge {
 	}
 
 	@Override
-	public void calculateWeight() {
+	public double calculateWeight() {
+		return 0;
 		// TODO Auto-generated method stub
 		
 	}
 
-
-	List<Integer> getLinks() {
+	@Override
+	public List<Integer> getLinks() {
 		// TODO Auto-generated method stub
 		return null;
 	}
