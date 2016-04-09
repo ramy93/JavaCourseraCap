@@ -4,11 +4,12 @@ import java.util.List;
 import edge.*;
 
 public class IndexedEdge extends MultipleLinksEdge {
-
+	double weight;
+	
 	@Override
 	public double getWeight() {
 		// TODO Auto-generated method stub
-		return 0;
+		return this.weight;
 	}
 
 	@Override
